@@ -6,7 +6,7 @@ function App() {
             <div className="card-body">
               <figure>
                 <blockquote className="blockquote">
-                  <h1 id="text" className="card-title">...You're Broke!!</h1>
+                  <h1 id="text" className="card-title"><i class="bi bi-quote"></i>...You&apos;re Broke!!</h1>
                 </blockquote>
                 <figcaption id="author" className="card-subtitle blockquote-footer text-end">
                   Rather not say
