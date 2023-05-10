@@ -3,10 +3,10 @@ import { createSlice } from "@reduxjs/toolkit";
 export const colorSlice = createSlice({
   name: "color",
   initialState: {
-    value: "primary",
+    value: "dark",
   },
   reducers: {
-    randomize: (state) => {
+    getRandomColor: (state) => {
       const colors = ["primary", "success", "info", "danger", "warning", "dark"]
 
       const randomIndex = Math.floor(Math.random() * 6);
@@ -16,6 +16,6 @@ export const colorSlice = createSlice({
   },
 })
 
-export const { randomize } = colorSlice.actions;
+export const { getRandomColor } = colorSlice.actions;
 
 export default colorSlice.reducer;
