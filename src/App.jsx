@@ -35,7 +35,7 @@ function App() {
               </figure>
             </div>
             <div className="card-footer d-flex justify-content-between">
-              <a id="tweet-quote" className={`btn btn-${color}`} href="https://twitter.com/intent/tweet?text=testing">
+              <a id="tweet-quote" className={`btn btn-${color}`} href={`https://twitter.com/intent/tweet?text="${quote.text}" ${quote.author}`}>
                 <i className="bi bi-twitter"></i>
               </a>
               <button 
